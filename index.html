@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>Media Player!</title>
+    </head>
+    <body>
+        <h2>Assignment_5 </h2>
+		<p>This is the audio</p>
+		<audio controls>
+			<source src="media/Bossa-nova-beat-music-loop.mp3" type="audio/mp3">
+			Your browser does not support the audio element.
+		</audio>
+		<br/>
+        <p>this is the video!</p>
+		<video id="video"
+			controls="controls" 
+			onloadeddata="startPlay()" 
+			style='height:25%; width:25%;'>
+				Your browser does not support the <code>video</code> element. 
+		</video>
+    </body>
+	<script src="index.js"></script>
+</html>
+
+<!code from https://www.w3schools.com/tags/att_audio_controls.asp, accessed, 06/09/2019> 
+<!Based on https://blog.sverrirs.com/2016/10/html5-video-playback-xbox.html, accessed, 06/09/2019>
